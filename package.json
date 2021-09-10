@@ -1,0 +1,34 @@
+{
+  "name": "lambda_puppeteer",
+  "version": "1.0.0",
+  "description": "a lambda function container with a nodejs app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwsm/lambda_puppeteer.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "function",
+    "docker",
+    "container",
+    "node",
+    "nodejs",
+    "pupeteer"
+  ],
+  "author": "Eric Newsom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nwsm/lambda_puppeteer/issues"
+  },
+  "homepage": "https://github.com/nwsm/lambda_puppeteer#readme",
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer": "^10.2.0",
+    "puppeteer-core": "^10.2.0"
+  }
+}

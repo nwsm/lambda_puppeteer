@@ -1,0 +1,17 @@
+org: [placeholder]
+app: [placeholder]
+service: lambda-puppeteer
+provider:
+  name: aws
+  ecr:
+    images:
+      lambda-puppeteer:
+        path: ./
+
+functions:
+  scrape:
+    image:
+      name: lambda-puppeteer
+      command:
+        - app.handler
+      entryPoint:
